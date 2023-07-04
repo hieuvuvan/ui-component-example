@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@sapo/ui-components": "^0.0.0",
-    "@sapo/ui-icons": "^0.0.0",
+    "@sapo/ui-components": "^1.1.0",
+    "@sapo/ui-icons": "^1.0.0",
     "@types/lodash-es": "^4.17.7",
     "lodash-es": "^4.17.21",
     "react": "^18.2.0",
