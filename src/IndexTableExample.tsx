@@ -57,6 +57,23 @@ const orders = [
   },
 ];
 
+Array.from(new Array(300)).forEach((_, idx) => {
+  const id = 1000 + idx;
+  orders.push({
+    id: "" + id, 
+    order: "#" + id,
+    date: "13/06/2023 16:36",
+    customer: "Tuyến",
+    total: "100.000đ",
+    paymentStatus: <Badge progress="complete">Đã thanh toán</Badge>,
+    fulfillmentStatus: (
+      <Badge progress="complete" status="success">
+        Đã xử lý
+      </Badge>
+    ),
+  })
+})
+
 const defaultOrderHeaders: IndexTableProps["headings"] = [
   {
     title: "Mã đơn hàng",
