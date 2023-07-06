@@ -60,7 +60,7 @@ const orders = [
 Array.from(new Array(300)).forEach((_, idx) => {
   const id = 1000 + idx;
   orders.push({
-    id: "" + id, 
+    id: "" + id,
     order: "#" + id,
     date: "13/06/2023 16:36",
     customer: "Tuyến",
@@ -71,8 +71,8 @@ Array.from(new Array(300)).forEach((_, idx) => {
         Đã xử lý
       </Badge>
     ),
-  })
-})
+  });
+});
 
 const defaultOrderHeaders: IndexTableProps["headings"] = [
   {
